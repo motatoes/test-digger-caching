@@ -28,7 +28,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           disable-locking: true
           digger-hostname: 'https://cloud.digger.dev'
-          digger-organisation: 'digger'
+          digger-organisation: 'digger-playground'
           digger-token: ${{ secrets.DIGGER_TOKEN }}
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
