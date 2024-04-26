@@ -21,7 +21,7 @@ jobs:
       statuses: write      # required to validate combined PR status
     steps:
       - uses: actions/checkout@v4
-      - uses: diggerhq/digger@test-caching-digger
+      - uses: JoshuaJackson-jobvite/digger@develop
         with:
           setup-aws: true
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
